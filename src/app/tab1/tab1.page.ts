@@ -69,4 +69,8 @@ export class Tab1Page {
   focus01(){
     console.log("Focused!");
   }
+
+  checkBoxChanged(event:any){
+    console.log(event);
+  }
 }
